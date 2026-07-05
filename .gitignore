@@ -1,0 +1,128 @@
+# ==============================================================================
+# MACHINE LEARNING / DEEP LEARNING SPECIALIZED
+# ==============================================================================
+
+# Data directories (Never commit raw, processed, or external data)
+data/
+*.csv
+*.parquet
+*.jsonl
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.dvc
+
+# Model checkpoints and weights
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.joblib
+weights/
+
+# Large artifacts and tracking
+artifacts/
+.hydra/
+outputs/
+multirun/
+mlruns/
+lightning_logs/
+wandb/
+comet.log
+tensorboard/
+.aim/
+
+# ==============================================================================
+# JUPYTER NOTEBOOKS
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Optional: Ignore notebook visual outputs if you use tools like Jupytext
+# (Uncomment the line below if you only want to track code, not output cells)
+# *.ipynb
+
+# ==============================================================================
+# ENVIRONMENT & SECRETS (CRITICAL)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
+.aws/
+.gcat/
+
+# ==============================================================================
+# PYTHON STANDARD & VIRTUAL ENVIRONMENTS
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+.conda/
+
+# pip log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry / Pipenv / Hatch
+.poetry/
+.pipenv/
+
+# ==============================================================================
+# IDEs & EDITORS
+# ==============================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
