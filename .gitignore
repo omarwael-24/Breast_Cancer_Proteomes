@@ -126,3 +126,4 @@ pip-delete-this-directory.txt
 # Mac / Windows system files
 .DS_Store
 Thumbs.db
+notebook/notebook.ipynb
