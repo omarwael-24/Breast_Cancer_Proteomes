@@ -1,2 +1,12 @@
+---
 project:
-  name: ""
+  name: "Breast_Cancer_Proteomes"
+  version: 1.0
+
+paths:
+  raw_data:
+    - "../Data/raw_data/77_cancer_proteomes_CPTAC_itraq.csv"
+    - "../Data/raw_data/clinical_data_breast_cancer.csv"
+    - "../Data/raw_data/PAM50_proteins.csv"
+  interim:
+    
